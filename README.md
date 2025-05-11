@@ -1,12 +1,26 @@
-# React + Vite
+# Sistema de Gestión de Pacientes – Clínica Veterinaria
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web construida con React para registrar y visualizar pacientes de una clínica veterinaria. 
 
-Currently, two official plugins are available:
+⚙️ Tecnologías utilizadas
+- React (v18+)
+- JavaScript (ES6+)
+- Vite (como bundler)
+- HTML5
+- Patrones de diseño (Factory, Decorator, Observer)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📦 Instalación
+Clona este repositorio:
+```
+git clone https://github.com/tu-usuario/veterinaria-pacientes.git
+cd veterinaria-pacientes
+```
+Instala las dependencias:
+```
+yarn install
+```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Ejecutar el proyecto
+```
+yarn dev
+```
